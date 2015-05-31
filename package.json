@@ -15,5 +15,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kaidez/postcss-playground"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-postcss": "^5.1.8"
   }
 }
