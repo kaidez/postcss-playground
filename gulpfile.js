@@ -1,5 +1,7 @@
 var gulp = require("gulp");
 var postcss = require('gulp-postcss');
+var concatCss = require('gulp-concat-css');
+
 
 
 gulp.task('css', function () {
@@ -7,6 +9,12 @@ gulp.task('css', function () {
     .pipe( postcss([
       require('cssnext')(),
       require('cssnano')()
-    ]) )
-    .pipe( gulp.dest('build/') );
+    ]) );
+});
+
+
+gulp.task('concat',['css'], function () {
+  return gulp.src('src/*.css')
+    .pipe(concatCss("styles.css"))
+    .pipe(gulp.dest('build/'));
 });
