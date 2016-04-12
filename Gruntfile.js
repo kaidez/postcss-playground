@@ -10,7 +10,8 @@ module.exports = function(grunt) {
       ]
     },
     dist: {
-      src: 'src/*.css'
+      src: 'src/*.css',
+      dest: 'build/styles.css'
     }
   }
 });
