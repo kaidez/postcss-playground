@@ -20,12 +20,6 @@
     "autoprefixer": "^6.3.6",
     "cssnano": "^3.5.2",
     "grunt": "^1.0.1",
-    "grunt-postcss": "^0.8.0",
-    "gulp": "^3.9.0",
-    "gulp-concat-css": "^2.2.0",
-    "gulp-postcss": "^6.1.0",
-    "gulp-watch": "^4.3.5",
-    "postcss-cli": "^2.5.1",
-    "postcss-cssnext": "^2.5.2"
+    "grunt-postcss": "^0.8.0"
   }
 }
