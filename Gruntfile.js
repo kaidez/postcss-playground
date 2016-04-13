@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         ]
       },
       dist: {
-        src: 'src/*.css',
+        src: 'css-build/*.css',
         dest: 'build/style.css'
       }
     }
