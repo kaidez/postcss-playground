@@ -1,0 +1,11 @@
+body {
+  font: 18px 'Asap';
+}
+.container {
+    margin: 0 auto;
+    width: 814px;
+}
+
+.header-title {
+    text-align: center;
+}

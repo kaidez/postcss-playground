@@ -1,14 +1,3 @@
-body {
-  font: 18px 'Asap';
-}
-.container {
-    margin: 0 auto;
-    width: 814px;
-}
-
-.header-title {
-    text-align: center;
-}
 .color-test {
     width: 200px;
     height: 200px;
@@ -22,16 +11,14 @@ body {
 }
 
 .color-test {
-    width: 200px;
+    width: 100px;
     height: 200px;
     display: inline-block;
 }
 
 
-:root {
-  --siteFontSize: 20px;
-}
-
-a {
-  font-size: var(--siteFontSize);
+.foo {
+    width: 100px;
+    height: 200px;
+    display: inline-block;
 }
