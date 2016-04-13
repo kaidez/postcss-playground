@@ -4,8 +4,10 @@
   "description": "Playing around with PostCSS",
   "main": "index.js",
   "scripts": {
+    "server": "./node_modules/httpster/bin/httpster -p 3000 -d ./build/",
     "grunt": "grunt postcss",
-    "watch-css": "nodemon -e css -w src -x 'npm run grunt'"
+    "watch-css": "nodemon -e css -w src -x 'npm run grunt'",
+    "start": "npm run server && npm run watch-css"
   },
   "keywords": [
     "postcss",
@@ -23,6 +25,7 @@
     "grunt-cli": "^1.2.0",
     "grunt-postcss": "^0.8.0",
     "gulp-cssnext": "^1.0.1",
+    "httpster": "^1.0.3",
     "nodemon": "^1.9.1",
     "postcss-cssnext": "^2.5.2"
   }
