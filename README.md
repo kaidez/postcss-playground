@@ -10,3 +10,6 @@ Just starting...
 [_PostCSS the Future after Sass and Less (Presentation)_](http://ai.github.io/about-postcss/en/) by Andrey Sitnik
 
 [_How to Build Your Own CSS Preprocessor With PostCSS_](http://www.sitepoint.com/build-css-preprocessor-postcss/) by Craig Buckler
+
+[_PostCSS Deep Dive_](http://webdesign.tutsplus.com/series/postcss-deep-dive--cms-889) by Kezz Bracey
+
