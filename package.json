@@ -4,10 +4,11 @@
   "description": "Playing around with PostCSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "grunt": "grunt postcss",
+    "watch-css": "nodemon -e css -w src -x 'npm run grunt'"
   },
   "keywords": [
-    "rework",
+    "postcss",
     "postprocessor"
   ],
   "author": "kaidez",
@@ -19,8 +20,10 @@
   "devDependencies": {
     "cssnano": "^3.5.2",
     "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
     "grunt-postcss": "^0.8.0",
     "gulp-cssnext": "^1.0.1",
+    "nodemon": "^1.9.1",
     "postcss-cssnext": "^2.5.2"
   }
 }
