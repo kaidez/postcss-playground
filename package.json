@@ -17,9 +17,9 @@
     "url": "https://github.com/kaidez/postcss-playground"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
     "cssnano": "^3.5.2",
     "grunt": "^1.0.1",
+    "grunt-postcss": "^0.8.0",
     "gulp-cssnext": "^1.0.1",
     "postcss-cssnext": "^2.5.2"
   }
