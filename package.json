@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "server": "./node_modules/httpster/bin/httpster -p 3000 -d ./build/",
+    "concat-css": "cat css-build/partials/global.css css-build/partials/color.css > css-build/style.css",
     "grunt": "grunt postcss",
-    "watch-css": "nodemon -e css -w css-build -x 'npm run grunt'",
+    "build-css": "npm run concat-css && npm run grunt",
+    "watch-css": "nodemon -e css -w css-build/partials -x 'npm run build-css'",
     "start": "npm run server & npm run watch-css"
   },
   "keywords": [
