@@ -1,0 +1,34 @@
+body {
+  font: 18px 'Asap';
+}
+.container {
+    margin: 0 auto;
+    width: 81px;
+}
+
+.header-title {
+    text-align: center;
+}.color-test {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+/* Color calculation */
+.pc-color-test {
+    background-color: color(red alpha(-90%));
+}
+
+.color-test {
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+.foo {
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+}
