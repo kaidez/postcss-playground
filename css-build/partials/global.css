@@ -1,9 +1,11 @@
+/* Basic core styles tha don't have anything to do with PostCSS */
 body {
   font: 18px 'Asap';
 }
+
 .container {
     margin: 0 auto;
-    width: 81px;
+    width: 820px;
 }
 
 .header-title {
